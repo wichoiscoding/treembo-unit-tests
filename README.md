@@ -40,9 +40,12 @@ Antes de comenzar, asegúrate de tener instalado:
    cd treembo-unit-tests
 
 3. Instala las dependencias
+  ```powershell
    pip install -r requirements.txt
-
-4. Ejecucion (desde la raiz)
+  ```
+5. Ejecucion (desde la raiz)
+   ```
    pytest
+   ```
 
 
