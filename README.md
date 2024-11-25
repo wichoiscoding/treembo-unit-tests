@@ -3,7 +3,7 @@
 Este repositorio contiene una simulación del marketplace de Treembo y pruebas unitarias diseñadas para validar su funcionalidad usando **pytest** en entornos Windows con herramientas como **PowerShell** y **VS Code**.
 ---
 Estructura del proyecto
-
+```
 treembo-marketplace-tests/
 ├── models/                   
 │   ├── __init__.py
@@ -15,7 +15,7 @@ treembo-marketplace-tests/
 │
 ├── requirements.txt          
 ├── README.md                 
-
+```
 
 ---
 
@@ -38,12 +38,11 @@ Antes de comenzar, asegúrate de tener instalado:
    ```powershell
    git clone https://github.com/wichoiscoding/treembo-unit-tests.git/
    cd treembo-unit-tests
-
 3. Instala las dependencias
   ```powershell
    pip install -r requirements.txt
   ```
-5. Ejecucion (desde la raiz)
+4. Ejecucion (desde la raiz)
    ```
    pytest
    ```
